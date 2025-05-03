@@ -74,7 +74,13 @@ export default function DashboardPage() {
               </button>
             </div>
           </div>
+
+          
         ))}
+        {/* 🧪 Mock Participants */}
+  <div className="text-sm text-gray-500">
+    👥 <span className="font-medium">Participants:</span> Devansh, Alex, Priya
+  </div>
       </div>
 
       <Dialog open={open} onClose={() => setOpen(false)} className="relative z-50">
